@@ -20,6 +20,7 @@
 }
 
 
+
 .team-section {
   padding: 50px 0;
   text-align: center;
@@ -156,6 +157,7 @@
 
 
 
+
 .section__container {
   max-width: var(--max-width);
   margin: auto;
@@ -246,6 +248,7 @@ nav {
   width: 100%;
   z-index: 9;
   padding: 25px 15px;
+  
 }
 
 .nav__header {
@@ -254,7 +257,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--background-dark);
+  background-color: var(--background-light);
   border-radius: 25px;
   margin-top: 10px;
 }
@@ -276,7 +279,7 @@ nav {
   flex-direction: column;
   gap: 2rem;
   padding: 2rem;
-  background-color: var(--background-light);
+  background-color: var(--background-dark);
   border-radius: 25px;
   transition: transform 0.3s;
   z-index: -1;
@@ -375,6 +378,9 @@ nav {
 .feature__card:hover {
   box-shadow: 0 0 25px rgba(157, 60, 231, 0.4);
 }
+
+
+
 
 .feature__card span {
   display: inline-block;
