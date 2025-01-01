@@ -307,9 +307,10 @@ nav {
   content: "";
   height: 100%;
   grid-area: 1/1/2/2;
-  inset: 0;
+  inset: 0 0 0 0;
   background-color: var(--background-dark);
   z-index: -1;
+  margin-top: 10px; /* Added gap from top */
 }
 
 .header__content h1 {
